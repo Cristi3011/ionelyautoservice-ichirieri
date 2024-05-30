@@ -1,0 +1,357 @@
+
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -9px;
+    right: 5px;
+    margin: 0px;
+    padding: 4px;
+}
+
+ul {
+    margin: 0; 
+    padding: 0; 
+    height: auto; 
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(0, 0, 159);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+li {
+    padding: 10px;
+    flex: 1 1 auto;
+    text-align: center; 
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(184, 194, 241);
+    font-size: 16px;
+    font-family: HelveticaNowMTText, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif;
+    display: block; 
+}
+body{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    color:black;
+    font-size: 20px;
+    font-family: HelveticaNowMTText,Lucida Sans,Lucida Grande,Lucida Sans Unicode,Trebuchet MS,sans-serif;
+    border-radius: 0px; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top:100px;
+    margin-bottom: 0;
+    
+}
+
+.car-list {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.car-container .car-info {
+    flex: 1 1 45%; 
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    background-color: white; 
+    transition: transform 0.3s ease;
+}
+
+.car-container .car-info:hover {
+    transform: scale(1.05); 
+}
+
+.car-container .car-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.select-button {
+    background-color:  rgb(0, 0, 159);
+    color : white;
+    font: bold 14px Arial;
+    width: 40%;
+    height: 50px;
+    display: block;
+    margin-top: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.select-button:hover {
+    background-color: #888;
+}
+
+footer {
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    right:0;
+}
+
+
+
+.corpform{
+    background-color: whitesmoke;
+    color:black;
+    font-size: 20px;
+    font-family: HelveticaNowMTText,Lucida Sans,Lucida Grande,Lucida Sans Unicode,Trebuchet MS,sans-serif;
+    margin-top: 50px;
+    border-radius: 0px; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+    bottom: 20px auto;
+    margin-bottom: 70px;
+}
+
+.rent-button{
+    background-color:  rgb(0, 0, 159);
+    color : white;
+    font: bold 14px Arial;
+    width: 100%;
+    height: 50px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    margin-top: 20px;   
+}
+.rent-button:hover {
+    background-color: #888;
+}   
+
+.contact-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+   
+}
+.contact-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    justify-content: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.contact-info img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1.2;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-footer {
+    position:fixed;
+ }
+ .about-us {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-us h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about-us h2 {
+    margin-top: 20px;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.about-us p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.terms {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.terms h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.terms h2 {
+    margin-top: 20px;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.terms p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.welcome-animation {
+    animation: fadeIn 2s ease-out;
+}
+
+.car-image-container {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+#car-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .car-image-container {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    form {
+        width: 90%;
+        padding: 10px;
+    }
+    ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    li {
+        width: 100%; 
+        padding: 10px 0;
+    }
+
+    body{
+        padding-top: 70px;
+    }
+    .corpform{
+        padding-top: 120px;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 90%;
+    }
+
+    .contact-info img {
+        width: 20px; 
+        height: 20px;
+    }
+
+    .contact-info p {
+        font-size: 14px; 
+    }
+}
+

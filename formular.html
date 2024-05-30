@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Inchiriere</title>
+</head>
+<body class="corpform">
+    <div class="content">
+    <ul>
+        <li><a href="index.html">Acasă</a> </li>
+        <li><a href="terms.html">Termeni și condiții</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><img class="logo" src="images/logo.png"></li>
+    </ul>
+    <h1>Formular de închiriere</h1>
+    <p id ="selectedCar">Masina selectata : niciuna</p>
+    
+    <p>Completează formularul de mai jos pentru a închiria mașina aleasă.</p>
+    <form id="rental-form">
+        <h2 id="car-title"></h2>
+        Nume: <input type="text" id="nume"><br>
+        Prenume: <input type="text" id="prenume"><br>
+        Telefon: <input type="tel" id="telefon"><br>
+        Data începerii închirierii: <input type="date" id="dataincepere"><br>
+        Data finalizării închirierii: <input type="date" id="datafinal"><br>
+        <button type="button" id="rentbutton" class="rent-button" >Închirează</button>
+        <button type="button" onclick="location.href='index.html'" class="rent-button">Anulează</button>  
+    </form>   
+    </div>
+    <div class="car-image-container">
+        <img id="car-image" src="" style="display:none;">
+    </div>
+
+    <footer class="form_footer">
+        <p>© 2021 Ionely Autoservice. Toate drepturile rezervate.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script type = "module" src="main.js" ></script>
+</body>
+</html>
